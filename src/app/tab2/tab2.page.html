@@ -1,0 +1,13 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>
+      Zoeken
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <form (ngSubmit)="search()">
+    <ion-searchbar [(ngModel)]="searchinput.text" name="text" placeholder="Search for a place"></ion-searchbar>
+  </form>
+</ion-content>

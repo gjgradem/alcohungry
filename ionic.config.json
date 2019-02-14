@@ -1,0 +1,7 @@
+{
+  "name": "alcohungry",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "angular"
+}

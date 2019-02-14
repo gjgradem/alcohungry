@@ -1,0 +1,22 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>
+      Mijn winkels
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-card *ngFor="let store of myStores">
+    <ion-card-header>
+      <ion-card-subtitle>{{store.category}}</ion-card-subtitle>
+      <ion-card-title>{{store.title}}</ion-card-title>
+    </ion-card-header>
+    <ion-card-content>
+      De {{store.title}} sluit op x uur.
+      <br>
+      <ion-button (click)="homo()">Zet herrinnering!</ion-button>
+    </ion-card-content>
+  </ion-card>
+
+</ion-content>
